@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+airflow-scheduler.pid
+
+# Airflow folders
+airflow/logs/
+logs/
+*.log
+
+# SQLite (ถ้าใช้)
+*.db
+
+# Local settings / secrets
+.env
+.env.*
